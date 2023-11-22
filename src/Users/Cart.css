@@ -1,0 +1,66 @@
+/* Define styles for the cart items */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+   
+  .cart-item {
+      border: 1px solid #ccc;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+   
+    /* Style for the heading */
+    h1 {
+      font-size: 24px;
+      margin-bottom: 30px;
+      margin-top:50px;
+    }
+   
+    /* Basic table styles */
+  .table {
+    width: 100%;
+    /* border-collapse: collapse; */
+    border:1px solid white;
+    box-shadow: '0 15px 18px 0 rgba(0,0,0,0.7)'
+  }
+   
+  /* Table header */
+  .table th {
+    background-color: orange;
+    text-align: center;
+    padding: 8px;
+   
+   
+  }
+   
+  /* Table rows */
+  .table td, .table th {
+    /* border: 1px solid #ddd; */
+    padding: 8px;
+  }
+   
+  /* Alternating row colors */
+  .table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+
+  .quantity-button {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd; /* Add a border around the container */
+    padding: 5px; /* Add padding for spacing */
+    background-color: white;
+  }
+
+  .quantity-button__action {
+
+    margin: 0 5px; /* Adjust the margin as needed for spacing */
+    border: none;
+  }
+  
+  .quantity-button__quantity {
+    font-size: 16px;
+    margin: 0 10px;
+  }
